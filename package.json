@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ulyana0505/ula-HW-otus/issues"
   },
-  "homepage": "https://github.com/Ulyana0505/ula-HW-otus#readme"
+  "homepage": "https://github.com/Ulyana0505/ula-HW-otus#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
