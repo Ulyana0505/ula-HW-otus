@@ -39,8 +39,6 @@ function startwhichMonth() {
 }
 startwhichMonth();
 
-const circle = 24;
-const square = 36;
 function isCircleInSquare(circle, square) {
   const diameterOfCircle = (2 * Math.sqrt(circle)) / 3.1415;
   const storonaOfSquare = Math.sqrt(square);
