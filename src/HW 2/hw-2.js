@@ -33,10 +33,6 @@ function whichMonth(month) {
     return "Декабрь";
   }
 }
-function startwhichMonth() {
-  const month = +prompt("Enter a number from 1 to 12: ");
-  console.log(whichMonth(month));
-}
 
 function isCircleInSquare(circle, square) {
   const diameterOfCircle = (2 * Math.sqrt(circle)) / 3.1415;

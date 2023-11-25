@@ -25,12 +25,6 @@ function howManyMin(hours, min) {
   const todayAllMin = minInHours + min;
   return "С начала сегодняшенего дня прошло: " + todayAllMin + " минут.";
 }
-function howManyMinStart() {
-  let today = new Date();
-  let todayHours = today.getHours();
-  let todayMin = today.getMinutes();
-  console.log(howManyMin(todayHours, todayMin));
-}
 
 function whoIsOlder(a, b) {
   let birthDate_1_Arr = a.split(".");

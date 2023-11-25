@@ -13,9 +13,5 @@ function sumOfNumbers(num) {
   const units = num - hundreads * 100 - dozens * 10;
   return hundreads + dozens + units;
 }
-function startSumOfNumbers() {
-  const num = +prompt("Введите трехзначное число: ");
-  console.log(sumOfNumbers(num));
-}
 
 module.exports = { sum, sumLength, sumOfNumbers };

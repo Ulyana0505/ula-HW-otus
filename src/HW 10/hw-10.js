@@ -12,11 +12,5 @@ function whatIsUserString(str) {
     return "Введенная строка не является ни датой, ни почтой, ни телефоном";
   }
 }
-function startWhatIsUserString() {
-  const userString = prompt(
-    "Введите дату, элеткронную почту, номер телефона или что еще пожелаете: ",
-  );
-  console.log(whatIsUserString(userString));
-}
 
 module.exports = { whatIsUserString };

@@ -26,10 +26,6 @@ function arithmeticMeanOfOdd(numberN) {
   const itog = summ / count;
   return itog;
 }
-function startArithmeticMeanOfOdd() {
-  const numberN = +prompt("Enter an N number: ");
-  console.log(arithmeticMeanOfOdd(numberN));
-}
 
 module.exports = {
   sumAllNumFrom50To100,
