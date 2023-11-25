@@ -15,4 +15,4 @@ function minAndMaxInArr(a) {
   return `Min: ${minOfArr}, Max: ${maxOfArr}`;
 }
 
-module.exports = {sumOfArr, newArr, minAndMaxInArr};
+module.exports = { sumOfArr, newArr, minAndMaxInArr };

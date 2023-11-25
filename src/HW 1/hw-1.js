@@ -18,4 +18,4 @@ function startSumOfNumbers() {
   console.log(sumOfNumbers(num));
 }
 
-module.exports = {sum, sumLength, sumOfNumbers};
+module.exports = { sum, sumLength, sumOfNumbers };
