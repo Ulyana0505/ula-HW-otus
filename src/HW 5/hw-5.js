@@ -1,5 +1,3 @@
-let arr = [1, 5, 6, 7, 3, 9, 15, 8, 32, 78];
-
 function sumOfArr(arr) {
   return arr.reduce((sum, current) => sum + current, 0);
 }
