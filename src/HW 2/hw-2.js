@@ -37,7 +37,7 @@ function startwhichMonth() {
   const month = +prompt("Enter a number from 1 to 12: ");
   console.log(whichMonth(month));
 }
-startwhichMonth();
+
 
 function isCircleInSquare(circle, square) {
   const diameterOfCircle = (2 * Math.sqrt(circle)) / 3.1415;

@@ -10,7 +10,6 @@ function startUserAge() {
     const johnAge = +prompt("Enter a number: ");
     userAge(johnAge);
   }
-  startUserAge();
 
 let admin = Object.assign(user);
 function newObjectAdmin() {

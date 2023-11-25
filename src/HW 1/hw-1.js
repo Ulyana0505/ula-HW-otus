@@ -17,6 +17,5 @@ function startSumOfNumbers() {
   const num = +prompt("Введите трехзначное число: ");
   console.log(sumOfNumbers(num));
 }
-startSumOfNumbers();
 
 module.exports = {sum, sumLength, sumOfNumbers};

@@ -30,6 +30,5 @@ function startArithmeticMeanOfOdd() {
     const numberN = +prompt("Enter an N number: ");
     console.log(arithmeticMeanOfOdd(numberN));
   }
-startArithmeticMeanOfOdd();
 
 module.exports = {sumAllNumFrom50To100, multiplicationTableFor7, arithmeticMeanOfOdd};
